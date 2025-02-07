@@ -50,7 +50,18 @@
   <meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#ffffff">
 
   <link rel="manifest" href="manifest.json">
-  
+  <script>
+    if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/firebase-messaging-sw.js")
+            .then((registration) => {
+                console.log("Service Worker Registered");
+            })
+            .catch((err) => {
+                console.log("Service Worker registration failed: ", err);
+            });
+    }
+</script>
+
 </head>
 <body>
   
