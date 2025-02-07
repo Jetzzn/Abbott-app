@@ -548,87 +548,62 @@ class _TeamProfileWidgetState extends State<TeamProfileWidget> {
                                               ChipData(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                '4nznck2y' /* Management */,
+                                                '4nznck2y' /* GLOBAL */,
                                               )),
                                               ChipData(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                '5qmyghq8' /* Australia */,
+                                                '5qmyghq8' /* APAC HQ */,
                                               )),
                                               ChipData(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                'pi5jgjbl' /* Belgium */,
+                                                'pi5jgjbl' /* Special visitor */,
                                               )),
                                               ChipData(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                'kk3i7p2b' /* China */,
+                                                'kk3i7p2b' /* Australia */,
                                               )),
                                               ChipData(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                'g2sbtyf5' /* Hong Kong */,
+                                                'g2sbtyf5' /* New Zealand */,
                                               )),
                                               ChipData(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                '7vxsyxje' /* India */,
+                                                '7vxsyxje' /* EMAK India */,
                                               )),
                                               ChipData(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                'r6dufjsc' /* Indonesia */,
+                                                'r6dufjsc' /* EMAK Korea */,
                                               )),
                                               ChipData(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                '2qgbf623' /* Japan */,
+                                                '2qgbf623' /* EMAK SEA */,
                                               )),
                                               ChipData(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                'v3vv826s' /* Malaysia */,
+                                                'v3vv826s' /* Greater China China */,
                                               )),
                                               ChipData(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                'ozm3ps0n' /* New Zealand */,
+                                                'ozm3ps0n' /* Greater China Hong Kong */,
                                               )),
                                               ChipData(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                'tias8na1' /* Philippines */,
+                                                'tias8na1' /* Greater China Taiwan */,
                                               )),
                                               ChipData(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                '74y9gwvk' /* Singapore */,
-                                              )),
-                                              ChipData(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                'p023b8a7' /* South Korea */,
-                                              )),
-                                              ChipData(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                'otx50p25' /* Taiwan */,
-                                              )),
-                                              ChipData(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                'wfftb05b' /* Thailand */,
-                                              )),
-                                              ChipData(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                'h7jwqr1d' /* United States */,
-                                              )),
-                                              ChipData(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                'rxo04tzz' /* Vietnam */,
+                                                '74y9gwvk' /* Japan */,
                                               ))
                                             ],
                                             onChanged: (val) => safeSetState(
@@ -679,7 +654,7 @@ class _TeamProfileWidgetState extends State<TeamProfileWidget> {
                                               borderRadius:
                                                   BorderRadius.circular(8.0),
                                             ),
-                                            chipSpacing: 2.0,
+                                            chipSpacing: 8.0,
                                             multiselect: false,
                                             initialized:
                                                 _model.choiceChipsValue != null,
